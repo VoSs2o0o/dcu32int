@@ -1,9 +1,9 @@
 # DCU32INT - Delphi Compiled Units Parser
 The utility DCU32INT parses *.dcu file and converts it into a close to Pascal form.
 
-url: https://github.com/VoSs2o0o/dcu32int
-original author: http://hmelnov.icc.ru/DCU/index.eng.html
-forked from: https://github.com/Hunter342/dcu32int
+- url: https://github.com/VoSs2o0o/dcu32int
+- original author: http://hmelnov.icc.ru/DCU/index.eng.html
+- forked from: https://github.com/Hunter342/dcu32int
 
 ## Versions supported
 
