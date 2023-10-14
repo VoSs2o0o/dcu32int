@@ -1092,7 +1092,7 @@ procedure TUnit.ReadUses(TagRq: TDCURecTag);
                 end;
               drConstAddInfo:
                 begin
-                  if not IsMSIL then
+                  if not IsMSIL and not (Ver >= verD_11_0) then
                       Break;
                   if hImp<>0 then
                       DCUErrorFmt('ConstAddInfo encountered for %s in subrecord #%d',
